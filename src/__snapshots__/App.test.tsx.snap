@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app renders 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="header-logo"
+        class="header-logo"
+        src="spaceLogo.svg"
+      />
+    </a>
+  </div>
+  <nav>
+    <a
+      class=""
+      href="/capsules"
+    >
+      Capsules
+    </a>
+    <a
+      class=""
+      href="/rockets"
+    >
+      Rockets
+    </a>
+    <a
+      class=""
+      href="/rocket/add"
+    >
+      Add a rocket
+    </a>
+  </nav>
+  <div
+    class="home-container"
+  >
+    <h1>
+      Welcome to the space API
+    </h1>
+    <h2>
+      Ready?
+    </h2>
+  </div>
+  <div
+    class="footer"
+  >
+    <img
+      alt="footer-logo"
+      src="footer.svg"
+    />
+  </div>
+</div>
+`;

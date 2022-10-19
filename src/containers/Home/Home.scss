@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables';
+
+.home-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 36px;
+
+	h2 {
+		color: #fe6584;
+	}
+
+	img {
+		height: 200px;
+	}
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="subcontainer"
+    >
+      <div
+        class="title"
+      />
+      <p />
+      <a
+        href="/rockets/undefined/update/"
+      >
+        <button>
+          Edit
+        </button>
+      </a>
+    </div>
+  </div>
+  )
+</div>
+`;

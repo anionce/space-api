@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <div
+    class="footer"
+  >
+    <img
+      alt="footer-logo"
+      src="footer.svg"
+    />
+  </div>
+</div>
+`;

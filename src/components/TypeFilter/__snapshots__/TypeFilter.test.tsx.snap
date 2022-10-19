@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <div
+    class="select-container"
+  >
+    <label
+      for="type"
+    >
+      Type
+    </label>
+    <select
+      id="type"
+    >
+      <option
+        selected=""
+      />
+      <option
+        value="SuperRocket"
+      >
+        SuperRocket
+      </option>
+      <option
+        value="HiperRocket"
+      >
+        HiperRocket
+      </option>
+      <option
+        value="ExtraRocket"
+      >
+        ExtraRocket
+      </option>
+    </select>
+  </div>
+</div>
+`;

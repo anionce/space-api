@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables';
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+
+	.save-button {
+		margin-top: 32px;
+	}
+	:disabled {
+		cursor: not-allowed;
+		color: #c6c6c6;
+		background-color: #ebebe4;
+	}
+}

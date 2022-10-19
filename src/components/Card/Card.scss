@@ -1,0 +1,41 @@
+@import '../../assets/styles/variables';
+
+.card {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 500px;
+	border-radius: 3px;
+	padding: 20px 20px;
+	margin-top: 20px;
+	background-color: white;
+
+	&:last-child {
+		margin-bottom: 20px;
+	}
+
+	.title-container {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+		font-size: $font-size-lg;
+		font-weight: 500;
+		max-width: 250px;
+	}
+
+	.MuiSvgIcon-root {
+		margin-top: 3px;
+	}
+
+	.subtitle {
+		font-size: 17px;
+		text-decoration: underline $color-vidid;
+		text-decoration-thickness: 5px;
+	}
+
+	@media (min-width: $sm) and (max-width: $lg) {
+		max-width: 260px;
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+}

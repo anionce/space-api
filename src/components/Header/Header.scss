@@ -1,0 +1,14 @@
+@import '../../assets/styles/variables';
+
+.header {
+	text-align: center;
+	margin: 16px;
+
+	a {
+		color: $color-primary;
+	}
+
+	.header-logo {
+		height: 150px;
+	}
+}

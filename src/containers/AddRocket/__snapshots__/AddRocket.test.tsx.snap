@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <section
+    class="select-control"
+  >
+    <div
+      class="input-container"
+    >
+      <label
+        for="input"
+      >
+        Search
+      </label>
+      <input
+        id="input"
+        maxlength="100"
+        value=""
+      />
+    </div>
+    <div
+      class="select-container"
+    >
+      <label
+        for="type"
+      >
+        Type
+      </label>
+      <select
+        id="type"
+      >
+        <option
+          selected=""
+        />
+        <option
+          value="SuperRocket"
+        >
+          SuperRocket
+        </option>
+        <option
+          value="HiperRocket"
+        >
+          HiperRocket
+        </option>
+        <option
+          value="ExtraRocket"
+        >
+          ExtraRocket
+        </option>
+      </select>
+    </div>
+    <form
+      class="form-container"
+    >
+      <button
+        class="save-button"
+        disabled=""
+        type="button"
+      >
+        Save rocket
+      </button>
+    </form>
+  </section>
+</div>
+`;

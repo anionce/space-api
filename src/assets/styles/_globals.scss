@@ -1,0 +1,33 @@
+@import './variables';
+
+html {
+	background-color: $color-secondary;
+	overflow-x: hidden;
+	font-family: Roboto;
+}
+
+label {
+	font-size: $font-size-md;
+	color: $color-primary;
+}
+
+input,
+select {
+	font-family: Roboto;
+	font-size: $font-size-md;
+	padding: 4px;
+	width: 300px;
+	max-height: 36px;
+	margin-top: 8px;
+}
+
+button {
+	background-color: $color-vidid;
+	color: $color-primary;
+	border: 0px solid;
+	border-radius: 4px;
+	padding: 12px 16px;
+	font-size: $font-size-md;
+	border: none;
+	cursor: pointer;
+}

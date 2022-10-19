@@ -44,3 +44,37 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Space API
+
+This project was created using Typescript & Redux Toolkit.
+
+## Redux
+
+There are 2 stores, one managing an external API (spaceApi) which uses RTK Query and another one (rocketSlice) managing internal state which uses Redux Toolkit's createSlice.
+
+## Internationalization
+
+i18n was used for internationalization. Further languages can be easily added via JSON file.
+
+## Styling (Sass)
+
+Style is minimalist and has been created using the css framework Sass. Global variables have been set to avoid repetition.
+
+## Routing
+
+In order to generate all the routes, I have used the react-router-dom library in its latest version (6) and a 404 page component has been added to avoid errors when typing.
+
+## Componentization, reusability and customHooks
+
+I have tried to componentize and divide the application into smaller pieces of code so there's no repetition. I have also used customHooks to extract the majority of the logic out of the components.
+
+## Pagination & filters
+
+Pagination has been included at the end of the listing page container and its default parameters can be modified. Filters have been also added to improve user experience.
+
+## Testing
+
+I have created a minimum of one test for component using react-testing-library in order to check that all elements and text are displayed correctly.
+
+### Ana Gracia

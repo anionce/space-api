@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <a
+      href="/"
+    >
+      <img
+        alt="header-logo"
+        class="header-logo"
+        src="spaceLogo.svg"
+      />
+    </a>
+  </div>
+</div>
+`;

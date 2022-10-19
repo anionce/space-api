@@ -1,0 +1,31 @@
+{
+	"space_api": {
+		"home": {
+			"welcome": "Welcome to the space API",
+			"ready": "Ready?"
+		},
+		"navbar": {
+			"capsules": "Capsules",
+			"rockets": "Rockets",
+			"add": "Add a rocket"
+		},
+		"not-found": {
+			"title": "Sorry, this doesn't exist"
+		},
+		"button": {
+			"details": "Details",
+			"save": "Save rocket"
+		},
+		"input": {
+			"title": "Title",
+			"search": "Search"
+		},
+		"selector": {
+			"type": "Type"
+		},
+		"rocket": {
+			"add_new": "Add a new rocket"
+		},
+		"capsule": {}
+	}
+}

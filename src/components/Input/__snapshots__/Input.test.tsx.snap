@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <div
+    class="input-container"
+  >
+    <label
+      for="input"
+    >
+      Search
+    </label>
+    <input
+      id="input"
+      maxlength="100"
+      value=""
+    />
+  </div>
+</div>
+`;

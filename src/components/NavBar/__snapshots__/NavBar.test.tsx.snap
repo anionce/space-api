@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correcly 1`] = `
+<div>
+  <nav>
+    <a
+      class=""
+      href="/capsules"
+    >
+      Capsules
+    </a>
+    <a
+      class=""
+      href="/rockets"
+    >
+      Rockets
+    </a>
+    <a
+      class=""
+      href="/rocket/add"
+    >
+      Add a rocket
+    </a>
+  </nav>
+</div>
+`;
